@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <style>
+        .bg-dark {
+            background-color: #040404 !important;
+        }
+
+        body {
+            background-color: white;
+        }
+
+        h5 {
+            color: #6c757d !important;
+        }
+
+        hr {
+            display: block;
+            color: grey;
+        }
+
+        #lens {
+            margin-left: auto;
+        }
+
+        .div1 {
+            display: inline-block;
+        }
+
+        .div2 {
+            float: right;
+        }
+
+        .text {
+            display: block;
+            margin-bottom: 3px;
+
+        }
+
+        .links {
+            display: block;
+
+        }
+
+        .links a {
+            float: right;
+        }
+
+        .div2 a {
+            float: right;
+            margin-bottom: 3px;
+        }
+
+        .div3 {
+            display: inline-block;
+        }
+
+        .div3 a {
+            display: block;
+            margin-bottom: 3px;
+        }
+
+        .div4 {
+            display: inline-block;
+            margin-left: 140px;
+
+        }
+
+        .div4 a {
+            display: block;
+        }
+
+        .btn-secondary {
+            color: rgb(14, 13, 13);
+            background-color: #cebfbf88;
+            border-color: #6c757d;
+            border-radius: 0;
+        }
+
+        .col-md-4 {
+            padding-bottom: 60px;
+
+        }
+
+        nav {
+            background-color: #040404;
+        }
+    </style>
+    <title>Netflix Account Page</title>
+</head>
+
+<body>
+    <nav style="position: fixed; top: 0; z-index: 1; width: 100%;"
+    class="navbar navbar-expand-lg navbar-dark  bd-navbar">
+    <a class="navbar-brand ml-4" href="#"><img class="img" src="assets\netflix_logo.png" alt="" height="50" /></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#tv-shows">Series</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#movies">Films</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#recently-added">New & Popular</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#my-list">My List</a>
+            </li>
+        </ul>
+
+        <ul class="nav justify-content-end">
+            <li class="nav-item mt-2 ">
+                <a href="#"><img class="img" src="assets/icons8-search-50.png" width="25" /></a>
+                <div class="btn-group">
+            </li>
+
+            <li id="kids" class="nav-item mt-1 text muted mx-2">
+                <a class="nav-link" href="#">CHILDEN</a>
+            </li>
+            <li class="nav-item mt-2 mr-2">
+                <a href="#"><img class="img" src="assets\icons8-gift-50.png" width="25" /></a>
+                
+                <div class="btn-group">
+            </li>
+
+            <li class="nav-item mt-2 mx-2">
+                <a href="#"><img class="img" src="assets/icons8-bell-24.png" width="25" /></a>
+                <div class="btn-group">
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle mr-4" href="#" id="navbarDropdownMenuLink" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img class="img" src="assets\avatar.png" alt="" width="35" height="30" />
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                    <a id="dropdown" class="dropdown-item" href="#"><img class="img mr-2" src="assets\avatar.png" alt=""
+                            width="40" />Me</a>
+                    <a id="dropdown" class="dropdown-item" href="#"><img class="img mr-2" src="assets\kids_icon.png" alt=""
+                            width="40" />Kids</a>
+                    <a id="dropdown" class="dropdown-item" href="editProfile.html">Manage profiles</a>
+                    <hr>
+                    <a id="dropdown" class="dropdown-item" href="accountSetting.html">Account</a>
+
+
+                    <a  id="dropdown" class="dropdown-item" href="#">Help Center</a>
+                    <a id="dropdown" class="dropdown-item" href="#">Sign Out of Netflix</a>
+                </div>
+
+            </li>
+
+        </ul>
+
+    </div>
+</nav>
+
+    <div class="container p-5">
+        <h3>Account</h3>
+        <hr>
+        <div class="row">
+            <div class="col-md-4">
+                <h5>MEMBERSHIP & BILLING</h5>
+                <button type="button" class="btn btn-secondary">Cancel Membership</button>
+
+            </div>
+
+            <div class="col-md-8">
+                <div class="div1">
+
+                    <div class="text"><strong>kai.kadir@hotmail.co.uk</strong></div>
+                    <div class="text">Password: **********</div>
+                    <div class="text">Phone: 07586884334</div>
+                </div>
+
+                <div class="div2">
+                    <div class="links"><a href="">Change account email</a></div>
+
+                    <div class="links"><a href="">Change password</a></div>
+
+                    <div class="links"><a href="">Change phone number</a></div>
+
+                </div>
+
+                <hr>
+
+                <div class="col-md-4 div1">
+                    <div><img src="./paypal.png" height="30px" alt=""> Kai.kadir@hotmail.co.uk</div>
+                </div>
+                <div class="div2">
+                    <div><a href="">Update payment info</a></div>
+                    <div><a href="">Billing details</a></div>
+                </div>
+                <hr>
+                <div class="div2">
+                    <div><a href="">Redeem gift card or promo code</a></div>
+                    <div><a href="">Where to buy gift cards</a></div>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <div class="row">
+
+            <div class="col-md-4">
+
+                <h5>PLAN DETAILS</h5>
+            </div>
+            <div class="col-md-8">
+                <div class="div1">
+                    <img src="./hd.png" height="40px" alt="">
+                </div>
+                <div class="div2">
+                    <a href="">Change plan</a>
+                </div>
+            </div>
+
+        </div>
+
+
+        <hr>
+
+        <div class="row">
+            <div class="col-md-4">
+                <h5>SETTINGS</h5>
+            </div>
+            <div class="col-md-8">
+                <div class="div3">
+                    <a href="">Parent controls</a>
+                    <a href="">Test participation</a>
+                    <a href="">Manage download device</a>
+                    <a href="">Activate a device</a>
+                    <a href="">Recent device streaming activity</a>
+                    <a href="">Sign out of all devices</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <div class="row">
+
+            <div class="col-md-4">
+                <h5>MY PROFILE</h5>
+            </div>
+
+            <div class="col-md-8">
+                <div style="margin-bottom: 20px;">
+                    <div class="row">
+                        <div class="col-12 div1">
+                            <span class="pl-3"><img src="./avatar.png" height="30px" alt="">
+                                <strong>Strive Student</strong>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row mt-2 justify-content-around">
+                        
+                            <div class="div2 d-flex flex-column">
+                                <a href="">Manage profiles</a>
+                                <a href="">Add profile email</a>
+                            </div>
+                       
+
+                        <div class="div3">
+
+                            <a href="">Language</a>
+                            <a href="">Playback settings</a>
+                            <a href="">Subtitle appearance</a>
+
+                        </div>
+                        <div class="div4">
+                            <a href="">Viewing activity</a>
+                            <a href="">Ratings</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
