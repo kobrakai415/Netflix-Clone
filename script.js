@@ -13,6 +13,7 @@ window.onload = () => {
         document.getElementById("banner").classList.remove("img-fluid", "w-100", "banner-opacity")
         parent.classList.add("video-wrapper")
         onYouTubeIframeAPIReady()
+        document.getElementById("mute-buttons").classList.remove("d-none")
     }, 2000)
 
     // function to load trailer iframe
@@ -147,15 +148,17 @@ const displayMovies = async (genre) => {
 window.addEventListener("scroll", function () {
     let nav = document.getElementById("navbar")
     nav.classList.toggle("sticky", window.scrollY > 1)
+   
 })
 
 // replace trailer with image
 window.addEventListener("scroll", function () {
     let vid = document.getElementById("banner")
     let parent = document.getElementById("parent")
-    if (window.scrollY > 10) {
+    if (window.scrollY > 15) {
         vid.outerHTML = `<img id="banner" class="w-100 img-fluid banner-opacity" src="./assets/banner3.webp" alt="">`
         parent.classList.remove("video-wrapper")
+        document.getElementById("mute-buttons").classList.add("d-none")
     }
 })
 
